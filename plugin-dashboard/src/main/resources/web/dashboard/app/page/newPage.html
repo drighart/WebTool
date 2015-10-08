@@ -1,0 +1,28 @@
+<!-- /#page-wrapper -->
+
+<div ng-controller="NewPageCtrl">
+<div class="row">
+    <div class="col-lg-7">
+      <h1 class="page-header">New page</h1>
+
+      <div class="well well-lg">
+      <form name="form">
+         <div class="form-group">
+           <label>Name</label>
+           <input type="text" class="form-control" ng-model="page.name" required autofocus>
+           <p class="help-block">Give your page a name. This name is only used in popups. eg. HOMEPAGE</p>
+         </div>
+         <div class="form-group">
+           <label>Title</label>
+           <input type="text" class="form-control" ng-model="page.title" required>
+           <p class="help-block">The title of the page can be shown on the website. eg. Welcome to my website!</p>
+         </div>
+         <hr/>
+         <div class="form-group">
+            <button type="button" class="btn btn-success" ng-click="save()"><span class="glyphicon glyphicon-save"></span> Save</button>
+            <button type="button" class="btn btn-danger" ng-click="cancel()">Cancel</button>
+         </div>
+      </form>
+   </div>
+
+</div>

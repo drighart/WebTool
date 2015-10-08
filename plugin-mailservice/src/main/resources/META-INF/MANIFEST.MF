@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: DRDevelopment - MailService Plugin
+Implementation-Vendor-Id: org.drdevelopment.webtool
+Plugin-Version: 0.0.1
+Plugin-Id: mailservice-plugin
+Plugin-Provider: DRDevelopment
+Plugin-Class: org.drdevelopment.webtool.plugin.MailServicePlugin
+Plugin-Dependencies: 

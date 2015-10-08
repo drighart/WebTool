@@ -1,0 +1,50 @@
+<!-- /#page-wrapper -->
+
+<div ng-controller="GenerateImageCtrl">
+<div class="row">
+    <div class="col-lg-7">
+      <h1 class="page-header">Apply a filter on a selection of images</h1>
+
+      <div class="well well-lg" ng-show="!filterTab">
+        <h3>Select the images which you want to transform with a filter. When you have selected the images, click next.</h3>
+        <p>{{ nrOfSelectedImages }} images are selected.</p>
+		<div deckgrid class="deckgrid clearfix ng-scope ng-isolate-scope" source="images" cardTemplate="image/deckgrid-card.html"></div>
+		<br/>
+		<button type="button" class="btn btn-danger" ng-click="cancel()">Cancel</button>
+        <button type="button" class="btn btn-primary" ng-click="next()">Next</button>
+   	  </div>
+      <div class="well well-lg" ng-show="filterTab">
+        <h3>Select the filter to apply and click 'apply'.</h3>
+        <p>{{ nrOfSelectedImages }} images are selected.</p>
+
+        <div class="form-group">
+          <label>Postfix image-name</label>
+          <input type="text" class="form-control" ng-model="postfix" required autofocus>
+        </div>
+
+        <div class="form-group">
+          <label>Tags</label>
+          <input type="text" class="form-control" ng-model="tags">
+        </div>
+
+		<div class="btn-group">
+	        <label class="btn btn-default" ng-model="filterModel" btn-radio="'crop'">Crop</label>
+	        <label class="btn btn-default" ng-model="filterModel" btn-radio="'scale'">Scale</label>
+	        <label class="btn btn-default" ng-model="filterModel" btn-radio="'contrast'">Contrast</label>
+	        <label class="btn btn-default" ng-model="filterModel" btn-radio="'grayscale'">Grayscale</label>
+	        <label class="btn btn-default" ng-model="filterModel" btn-radio="'sepia'">Sepia</label>
+	        <label class="btn btn-default" ng-model="filterModel" btn-radio="'sharpen'">Sharpen</label>
+	        <label class="btn btn-default" ng-model="filterModel" btn-radio="'blur'">Blur</label>
+	        <label class="btn btn-default" ng-model="filterModel" btn-radio="'posterize'">Posterize</label>
+	    </div>
+		<br/><br/>
+		<button type="button" class="btn btn-danger" ng-click="cancel()">Cancel</button>
+		<button type="button" class="btn btn-success" ng-click="reselect()">Back</button>
+		<button type="button" class="btn btn-primary" ng-click="apply()">Apply</button>
+		
+		<div class="col-sm-4" ng-show="showProgressIndicator">
+			<progressbar max="nrOfSelectedImages" value="filterCount" class="progress-striped" type="{{progressBarType}}">Processing images...</progressbar>
+		</div>
+   	  </div>
+   	</div>
+</div>

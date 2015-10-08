@@ -1,0 +1,18 @@
+<div class="photo">
+
+    <a href="" data-ng-click="card.showIndex = !card.showIndex; mother.cardSelected(card)">
+        <div class="photo-index" data-ng-if="card.showIndex">
+            <p class="balloon-wrapper">
+                <span style="font-size:2em;" class="glyphicon glyphicon-ok"></span>
+            </p>
+        </div>
+
+        <div class="photo-wrapper">
+            <img src="" data-ng-src="{{card.src}}" class="animation-fade" data-imageloaded data-loadedclass="animation-faded"/>
+        </div>
+
+        <div class="photo-description">
+            {{card.name}}
+        </div>
+    </a>
+</div>

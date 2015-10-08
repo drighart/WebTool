@@ -1,0 +1,347 @@
+2015-06-23 22:03:13,753 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:03:13,780 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:03:13,909 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:03:13,910 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:03:13,936 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964'.'ADMIN')
+2015-06-23 22:03:45,977 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:03:45,984 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:03:46,103 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:03:46,104 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:03:46,122 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:06:40,581 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:06:40,587 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:06:40,711 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:06:40,712 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:06:40,733 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:08:01,698 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:08:01,705 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:08:01,831 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:08:01,832 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:08:01,849 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:10:23,550 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:10:23,556 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:10:23,682 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:10:23,683 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:10:23,699 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:11:24,715 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:11:24,721 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:11:24,840 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:11:24,841 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:11:24,856 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:13:42,815 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:13:42,821 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:13:42,952 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:13:42,953 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:13:42,978 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:15:02,587 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:15:02,593 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:15:02,713 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:15:02,714 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:15:02,732 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:15:38,863 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:15:38,871 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:15:38,997 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:15:38,998 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:15:39,013 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:23:35,565 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:23:35,572 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:23:35,702 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:23:35,703 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:23:35,718 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:26:02,258 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:26:02,264 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:26:02,392 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:26:02,393 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:26:02,410 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:26:02,547 [main] DEBUG o.d.webedit.plugin.UsersService - Created new user with name 'Peter'.
+2015-06-23 22:26:18,065 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:26:18,071 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:26:18,192 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:26:18,193 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:26:18,214 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:26:18,363 [main] DEBUG o.d.webedit.plugin.UsersService - Created new user with name 'Peter'.
+2015-06-23 22:26:33,674 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:26:33,680 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:26:33,800 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:26:33,801 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:26:33,817 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:26:33,957 [main] DEBUG o.d.webedit.plugin.UsersService - Created new user with name 'Peter'.
+2015-06-23 22:26:48,213 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:26:48,219 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:26:48,360 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:26:48,361 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:26:48,382 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:26:48,511 [main] DEBUG o.d.webedit.plugin.UsersService - Created new user with name 'Peter'.
+2015-06-23 22:27:55,845 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:27:55,851 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:27:55,978 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:27:55,979 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:27:55,997 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:27:56,141 [main] DEBUG o.d.webedit.plugin.UsersService - Created new user with name 'Peter'.
+2015-06-23 22:27:56,147 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:27:56,147 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:27:56,149 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:27:56,160 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:27:56,160 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:27:56,162 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:29:29,459 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:29:29,466 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:29:29,593 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:29:29,594 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:29:29,611 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:31:40,912 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:31:40,920 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:31:41,051 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:31:41,052 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:31:41,072 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:33:53,738 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:33:53,745 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:33:53,869 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:33:53,870 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:33:53,889 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:35:49,793 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:35:49,800 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:35:49,920 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:35:49,921 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:35:49,937 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:35:49,939 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:37:34,832 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:37:34,838 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:37:34,963 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:37:34,964 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:37:34,984 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:37:34,985 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:38:31,217 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:38:31,224 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:38:31,343 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:38:31,344 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:38:31,359 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:38:31,361 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:39:09,398 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:39:09,405 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:39:09,528 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:39:09,529 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:39:09,547 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:39:09,549 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:40:05,743 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:40:05,748 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:40:05,877 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:40:05,878 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:40:05,897 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:40:05,900 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:40:06,038 [main] DEBUG o.d.webedit.plugin.UsersService - Created new user with name 'Peter'.
+2015-06-23 22:40:06,044 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:40:06,044 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:40:06,047 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:40:06,048 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:40:06,058 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:40:06,059 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:40:06,061 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:40:06,062 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:40:06,067 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:40:06,067 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:40:06,071 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:40:06,072 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:40:06,076 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:40:06,076 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:40:06,080 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:40:06,081 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:40:06,084 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:40:06,084 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:40:06,086 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:40:06,087 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:54:56,748 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:54:56,764 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:54:57,046 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:54:57,048 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:54:57,080 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:54:57,082 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:54:57,363 [main] DEBUG o.d.webedit.plugin.UsersService - Created new user with name 'Peter'.
+2015-06-23 22:54:57,374 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:54:57,375 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:54:57,378 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:54:57,379 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:54:57,394 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:54:57,395 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:54:57,398 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:54:57,399 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:54:57,408 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:54:57,408 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:54:57,412 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:54:57,413 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:54:57,420 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:54:57,421 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:54:57,427 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:54:57,428 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:54:57,433 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:54:57,434 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:54:57,438 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:54:57,440 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:59:10,533 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:59:10,539 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:59:10,670 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:59:10,671 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:59:10,686 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:59:10,688 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-06-23 22:59:51,948 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-06-23 22:59:51,955 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-06-23 22:59:52,092 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-06-23 22:59:52,093 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-06-23 22:59:52,109 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-06-23 22:59:52,111 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')

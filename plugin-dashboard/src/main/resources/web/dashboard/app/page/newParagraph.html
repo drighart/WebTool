@@ -1,0 +1,78 @@
+<!-- /#page-wrapper -->
+
+<div ng-controller="NewParagraphCtrl">
+<div class="row">
+    <div class="col-lg-4">
+      <h1 class="page-header">New paragraph</h1>
+
+      <div class="well">
+      <form name="form">
+         <div class="form-group">
+           <label>Choose a template</label>
+           
+           <div class="media">
+			  <div class="media-left media-middle">
+           		<input type="radio" ng-model="template" value="TEXT" checked>
+              </div>
+			  <div class="media-left media-middle">
+			    <h1><span class="glyphicon glyphicon-align-left"></span></h1>
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading">Text only</h4>
+              	<p class="help-block">This paragraph contains text and images. The text can be left- or right aligned or can be
+				centered. With the editor you can format your text. You can add images and change the background of this paragraph.
+              	</p>
+			  </div>
+		   </div>
+           <div class="media">
+			  <div class="media-left media-middle">
+           		<input type="radio" ng-model="template" value="PICTURE_BANNER" disabled>
+              </div>
+			  <div class="media-left media-middle">
+			    <h1><span class="glyphicon glyphicon-star"></span></h1>
+			  </div>
+			  <div class="media-body">
+			  
+			    <h4 class="media-heading">Banner on top, text below</h4>
+              	<p class="help-block">Upload an image which is displayed on top of the screen. Below the banner, you can write
+              	your custom text. In most cases, the banner is used to display a company logo.
+              	</p>
+			  </div>
+		   </div>
+           <div class="media">
+			  <div class="media-left media-middle">
+           		<input type="radio" ng-model="template" value="6PACK" disabled>
+              </div>
+			  <div class="media-left media-middle">
+			    <h1><span class="glyphicon glyphicon-eye-open"></span></h1>
+			  </div>
+			  <div class="media-body">
+			  
+			    <h4 class="media-heading">6 boxes</h4>
+              	<p class="help-block">You can fill 6 boxes with text or an uploaded image. Per box, an link can be attached.
+              	This template is used to show projects or references. You can also use the boxes to write strong characteristics of
+              	your business. Examine this paragraph template yourself!
+              	</p>
+			  </div>
+		   </div>
+		   
+         </div>
+         <hr/>
+         <div class="form-group">
+            <button type="button" class="btn btn-success" ng-click="save()"><span class="glyphicon glyphicon-save"></span> Save</button>
+            <button type="button" class="btn btn-danger" ng-click="cancel()">Cancel</button>
+         </div>
+	  </form>
+    </div>
+    </div>
+    <div class="col-lg-2 text-center">
+        <h1>&nbsp;</h1>
+		<p class="introhelp">Choose a template for this paragraph. You can choose from 5 templates. Every template has its own
+		characteristics and will be shown differently on the website. Once the template is choosen for a paragraph, it can not be
+		altered.
+		</p><br/>
+		<img src="/dashboard/assets/img/tip-left.png" /><br/><br/>
+	</div>
+   </div>
+
+</div>

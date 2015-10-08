@@ -1,0 +1,7 @@
+config(['$routeProvider', function($routeProvider) {
+    $routeProvider.
+    {% app_router_one %}
+    otherwise({
+        redirectTo: '/login'
+    });
+}]).

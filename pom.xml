@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.drdevelopment.webtool</groupId>
+  <artifactId>WebTool</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>DRDevelopment</name>
+  <packaging>pom</packaging>
+  
+  <modules>
+    <module>core</module>
+    <module>api</module>
+    <module>plugin-users</module>
+    <module>plugin-mailservice</module>
+    <module>plugin-dashboard</module>
+    <module>plugin-app-theme</module>
+    <module>plugin-setup-new-site</module>
+    <module>plugin-example-servlet</module>
+  </modules>
+</project>

@@ -1,0 +1,82 @@
+2015-07-05 21:29:25,862 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-07-05 21:29:25,891 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-07-05 21:30:52,555 [main] DEBUG org.drdevelopment.webedit.Config - No extra properties on disk available. File C:\Java\workspace\drwebedit-parent\plugin-users\configuration\configuration.properties does not exist.
+2015-07-05 21:30:52,562 [main] DEBUG org.drdevelopment.webedit.Config - Using the following properties:
+DB_CONSOLE_PORT=9124
+DB_PASSWORD=****
+DB_PORT=9123
+DB_USERNAME=demo
+DEVELOPMENT_MODE=true
+WEBSERVER_PORT=8080
+2015-07-05 21:30:52,685 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:52,686 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:52,702 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:52,708 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:52,710 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:52,922 [main] DEBUG o.d.webedit.plugin.UsersService - Created new user with name 'Peter'.
+2015-07-05 21:30:52,929 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:52,929 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:52,932 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:52,933 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:52,934 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:52,938 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:52,938 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:52,941 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:52,941 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:52,942 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:52,954 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:52,954 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:52,957 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:52,958 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:52,959 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:52,962 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:52,962 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:52,965 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:52,966 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:52,967 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:52,970 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:52,971 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:52,973 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:52,974 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:52,975 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:52,978 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:52,979 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:52,981 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:52,982 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:52,983 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:52,986 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:52,986 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:52,989 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:52,990 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:52,990 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:52,993 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:52,993 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:52,995 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:52,996 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:52,997 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:52,999 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:52,999 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:53,001 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:53,002 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:53,002 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:53,005 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:53,005 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:53,007 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:53,008 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:53,009 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:53,011 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:53,012 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:53,014 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:53,014 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:53,015 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')
+2015-07-05 21:30:53,018 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Dataupdate folder is C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate
+2015-07-05 21:30:53,018 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql from file C:\Java\workspace\drwebedit-parent\plugin-users\src\main\resources\dataupdate\dataupdate0.sql
+2015-07-05 21:30:53,020 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('John','dc647eb65e6711e155375218212b3964','ADMIN')
+2015-07-05 21:30:53,021 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Linda','6f9dff5af05096ea9f23cc7bedd65683','USER')
+2015-07-05 21:30:53,021 [main] DEBUG o.d.w.plugin.AbstractWebEditTest - Executing sql: INSERT INTO DATA.USERS(NAME,PASSWORD,ROLES) VALUES ('Sandra','874fcc6e14275dde5a23319c9ce5f8e4','ADMIN, USER')

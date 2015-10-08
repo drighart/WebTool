@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: DRDevelopment - Setup New Site Plugin
+Implementation-Vendor-Id: org.drdevelopment.webtool
+Plugin-Version: 0.0.1
+Plugin-Id: setup-new-site-plugin
+Plugin-Provider: DRDevelopment
+Plugin-Class: org.drdevelopment.webtool.plugin.SetupNewSitePlugin
+Plugin-Dependencies: 

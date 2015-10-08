@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="setup" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="setup" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="setup" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="setup" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DRDevelopment - WebTool - Setup your site!</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="assets/js/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="assets/js/bootstrap/dist/css/bootstrap-theme.min.css"/>
+  
+  <!-- Custom Fonts -->
+  <link href="assets/js/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+<body ng-controller="SetupCtrl">
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  
+  <div class="row" style="padding: 50px 50px 20px 50px;"><div ui-view>
+    <div class="col-md-4 col-md-offset-4">
+      <div class="well well-lg">
+      <h2 class="page-header" translate="TITLE">Setup your site!</h2>
+      <form name="form">
+         <div class="form-group">
+           <label translate="LANGUAGE">Choose your language?</label><br/>
+	       <div class="btn-group">
+	         <label class="btn btn-primary" ng-model="language" btn-radio="'en_US'" ng-click="changeLanguage('en_US');">English</label>
+	         <label class="btn btn-primary" ng-model="language" btn-radio="'nl_NL'" ng-click="changeLanguage('nl_NL');">Nederlands</label>
+	       </div>
+	     </div>
+         <div class="form-group">
+           <label translate="NAME_YOUR_WEBSITE">What is the name of your website?</label>
+           <input type="text" class="form-control" ng-model="name" autofocus required>
+           <p class="help-block" translate="HELP_WEBSITENAME">Give your website a name. This is also the name which will be shown on the home page of your website.</p>
+         </div>
+         <div class="form-group">
+           <label translate="EMAIL">Your email-address</label>
+           <input type="text" class="form-control" ng-model="emailAddress" type="email" required>
+           <p class="help-block" translate="HELP_EMAIL">What is your email-address? With this email-address you are allowed to login on the admin console. This email-address is also used when you forgot your password.</p>
+         </div>
+         <div class="form-group">
+           <label translate="PASSWORD">Your password</label>
+           <input type="password" class="form-control" ng-model="password" name="password" required>
+           <p class="help-block" translate="HELP_PASSWORD">To protect the admin console, you have to enter a password.</p>
+         </div>
+         <div class="form-group">
+           <label translate="PASSWORD_AGAIN">Enter your password again</label>
+           <input type="password" class="form-control" ng-model="passwordAgain" name="passwordAgain" required>
+           <p class="help-block" translate="HELP_PASSWORD_AGAIN">Please, repeat the password again to make sure it is correct.</p>
+         </div>
+         <div class="form-group">
+            <button type="button" class="btn btn-success" ng-click="save(name, emailAddress, password, passwordAgain)"><span class="glyphicon glyphicon-save"></span> {{ 'NEXT' | translate }}</button>
+         </div>
+      </form>
+      </div>
+    </div>
+  </div></div>
+
+  <script src="assets/js/angular/dist/angular.min.js"></script>
+  <script src="assets/js/angular/dist/angular-route.min.js"></script>
+  <script src="assets/js/angular/dist/angular-touch.min.js"></script>
+  <script src="assets/js/angular/dist/angular-animate.js"></script>
+  <script src="assets/js/angular/dist/angular-messages.js"></script>
+  <script src="assets/js/angular-translate/angular-translate.min.js"></script>
+  
+  <script src="assets/js/angular-bootstrap/dist/ui-bootstrap-tpls.min.js"></script>
+  <script src="assets/js/angular-ui-router/dist/angular-ui-router.min.js"></script>
+
+  <!--CONTROLLERS -->
+  <script src="setup.js"></script>
+  <script src="setupCtrl.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<div ng-controller="DashboardCtrl">
+    <div class="row">
+        <div class="col-lg-3 text-center" ng-show="nrPages == 1 && showTipMenuPages">
+			<br/><img src="/dashboard/assets/img/tip-up.png" /><br/><br/>
+			<p class="introhelp">On top of the screen the menu 'Pages' appears. If you want to edit the page, please click
+			on the menu 'Pages'. If you are lost in the dashboard, click on 'Dashboard' and you will return to this page.
+			</p>
+        </div>
+        <div class="col-lg-12">
+            <h1>&nbsp;</h1>
+        </div>
+    </div>
+
+    <div class="row">
+    	<div class="col-lg-7" ng-show="showPagesMenu && !(nrPages == 1 && showTipMenuPages)">
+    		<div class="col-lg-7" ng-show="!(nrPages == 1 && nrParagraphs > 0)">
+				<button class="btn btn-primary" ng-click="newPage()">Add new page</button>
+			</div>
+	        <div class="col-lg-4 text-center" ng-show="nrPages == 1 && nrParagraphs >= 1 && nrParagraphs < 3">
+	        	<div class="text-left">
+					<button class="btn btn-primary" ng-click="newPage()">Add new page</button>
+					<button class="btn btn-primary" ng-click="openWebsite()">Open website</button>
+				</div>
+				<br/>
+				<img src="/dashboard/assets/img/tip-up.png" /><br/><br/>
+				<p class="introhelp">It is time to open your website. If you click on the button 'Open website' a new tab in the 
+				browser is opened and your website is displayed. </p>
+				<br/><br/><img src="/dashboard/assets/img/browser.png"/><br/><br/>
+				<p class="introhelp">Go to the dashboard-tab in the browser to make changes to your
+				website. After making changes, refresh your website by clicking the <span class="glyphicon glyphicon-refresh"></span> (refresh) 
+				button in your browser. In the image above you can see how to close the tab or how to refresh it.</p>
+			</div>			
+		</div>
+        <div class="col-lg-4 col-lg-offset-2 text-center" ng-show="nrPages == 0">
+			<p class="introhelp">This is probably the first time you entered the dashboard part of your website. Apparently you do not 
+			have any pages on your website. Your website contains pages which can be viewed by the menu on the website.
+			
+			Click the button below to add a new page to your website.</p><br/>
+			<img src="/dashboard/assets/img/tip-down.png" /><br/><br/>
+			<div class="buttons">
+		      <button class="btn btn-primary" ng-click="newPage()">Add new page</button>
+		    </div>
+        </div>
+
+    </div>
+</div>

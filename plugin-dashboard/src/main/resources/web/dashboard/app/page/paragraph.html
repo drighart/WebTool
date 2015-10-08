@@ -1,0 +1,152 @@
+<!-- /#page-wrapper -->
+
+<div ng-controller="ParagraphCtrl">
+<div class="row">
+    <div class="col-lg-7">
+      <h1 class="page-header">Edit paragraph</h1>
+
+      <div class="well well-lg">
+      <form name="form">
+         <div class="form-group">
+            <button type="button" class="btn btn-success" ng-click="save()"><span class="glyphicon glyphicon-save"></span> Save</button>
+            <button type="button" class="btn btn-danger" ng-click="cancel()">Cancel</button>
+         </div>
+         
+         <div class="form-group">
+           <label>Anchor</label>
+           <input type="text" class="form-control" ng-model="paragraph.anchor" required autofocus>
+		   <p class="help-block">An anchor appears in the menu on top of the screen and can be jumped to. eg. Contact. The anchor is optional. If you leave it empty, it will not appear in the menu.</p>
+         </div>
+         
+         <div class="form-group">
+           <label>Content</label>
+           <div text-angular ng-model="paragraph.content"></div>
+         </div>
+
+        <div ng-show="!visibleImage">
+         	<button type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off" ng-click="toggleImage()">Add image</button><br/>
+			<p class="help-block">Add an image to this page and align it in the paragraph. You can also copy-paste an image from another page (like Wikipedia) into the text input field.</p>
+        </div>
+       	<div class="well" ng-show="visibleImage">
+      	 <h4>Image</h4>
+ 		 <div class="row">
+	    	 <div class="col-md-4">
+		         <div class="form-group">
+			 	     <div ng-show="uploader.isHTML5" ng-style="stroketext">	
+			            <div nv-file-drop="" uploader="uploader" options="{ url: '/rest/services/images/upload' }">
+			               <div nv-file-over="" uploader="uploader" over-class="another-file-over-class" class="well my-drop-zone" 
+			                 ng-style="imagePath != '' && {'background-image':'url(' + imagePath + ')', 'background-size' : 'cover', 'color': 'white', 'text-shadow': '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'}">
+			                   Drag and drop image to this box to upload or click the button below!
+			                   <br/>
+			                   <br/>
+			                   <br/>
+			                   <input type="file" nv-file-select="" uploader="uploader" />
+			                   <br/>
+			                   <br/>
+			                   <br/>
+			               </div>
+			            </div>
+			            <p class="help-block">Upload an image by drag and drop the image to the drop zone or click on the button on the image.</p>
+			         </div>
+		         </div>
+	         </div>
+	    	 <div class="col-md-4" ng-show="imagePath != ''">
+	    	 
+		       <div class="media">
+				  <div class="media-left media-top">
+	           		<input type="radio" ng-model="imageAlignment" value="ALIGN_LEFT" checked>
+	              </div>
+				  <div class="media-left media-top">
+				    <h1><span class="glyphicon glyphicon-align-left"></span></h1>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Align left</h4>
+	              	<p class="help-block">Align the image left to the content.</p>
+				  </div>
+			   </div>
+		       <div class="media">
+				  <div class="media-left media-middle">
+	           		<input type="radio" ng-model="imageAlignment" value="ALIGN_RIGHT" checked>
+	              </div>
+				  <div class="media-left media-middle">
+				    <h1><span class="glyphicon glyphicon-align-right"></span></h1>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Align right</h4>
+	              	<p class="help-block">Align the image right to the content.</p>
+				  </div>
+			   </div>
+               <br/><button type="button" class="btn btn-primary" ng-click="clearImage()">Clear image</button>
+	    	 
+	         </div>
+         </div>
+        </div>
+
+        <div ng-show="!visibleButtonText">
+          <button type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off" ng-click="toggleButton()">Add button</button><br/>
+		  <p class="help-block">Add a button to this paragraph to jump to another anchor or another page. The anchor is an link to a subject on the same page. eg. Contact. 
+		    Another link can be http://www.google.nl or a link to a PDF or ZIP-file to download.</p>
+        </div>
+      	<div class="well" ng-show="visibleButtonText">
+      	 <h4>Button</h4>
+         <div class="form-group">
+           <label>Text on button</label>
+           <input type="text" class="form-control" ng-model="paragraph.buttonText" required autofocus>
+		   <p class="help-block">The text which appears on the button.</p>
+         </div>
+         <div class="form-group">
+           <label>Link on button</label>
+           <input type="text" class="form-control" ng-model="paragraph.buttonLink" required autofocus>
+		   <p class="help-block">The hyperlink or anchor to link to when you click on the button. eg. #Contact or https://www.google.com</p>
+         </div>
+        </div>
+
+        <div ng-show="!visibleBackground">
+          <button type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off" ng-click="toggleBackgroundButton()">Add background-color or -image</button><br/>
+		  <p class="help-block">Add a background-color and/or background-image to this paragraph.</p>
+        </div>
+      	<div class="well" ng-show="visibleBackground">
+      	 <h4>Background</h4>
+         <div class="form-group">
+           <label>Background color</label><br/>
+           <input colorpicker="rgba" colorpicker-with-input="true" type="text" ng-model="paragraph.backgroundColor" />
+		   <p class="help-block">Click on the input-field to change the background color of this paragraph. It can be combined with a background image and a transparant background color.</p>
+         </div>
+         <hr/>
+ 		 <div class="row">
+	    	 <div class="col-md-4">
+		         <div class="form-group">
+			 	     <div ng-show="uploaderBackground.isHTML5" ng-style="stroketext">	
+			            <div nv-file-drop="" uploader="uploaderBackground" options="{ url: '/rest/services/images/upload' }">
+			               <div nv-file-over="" uploader="uploaderBackground" over-class="another-file-over-class" class="well my-drop-zone" 
+			                 ng-style="backgroundImagePath != '' && {'background-image':'url(' + backgroundImagePath + ')', 'background-size' : 'cover', 'color': 'white', 'text-shadow': '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'}">
+			                   Drag and drop image to this box to upload or click the button below!
+			                   <br/>
+			                   <br/>
+			                   <br/>
+			                   <input type="file" nv-file-select="" uploader="uploaderBackground" />
+			                   <br/>
+			                   <br/>
+			                   <br/>
+			               </div>
+			            </div>
+			            <p class="help-block">Upload an image by drag and drop the image to the drop zone or click on the button on the image.</p>
+			         </div>
+		         </div>
+	         </div>
+	    	 <div class="col-md-4" ng-show="backgroundImagePath != ''">
+               <button type="button" class="btn btn-primary" ng-click="clearBackgroundImage()">Clear image</button>
+	         </div>
+         </div>
+         
+        </div>
+
+         <hr/>
+         <div class="form-group">
+            <button type="button" class="btn btn-success" ng-click="save()"><span class="glyphicon glyphicon-save"></span> Save</button>
+            <button type="button" class="btn btn-danger" ng-click="cancel()">Cancel</button>
+         </div>
+      </form>
+   </div>
+
+</div>

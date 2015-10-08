@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: DRDevelopment - Dashboard Plugin
+Implementation-Vendor-Id: org.drdevelopment.webtool
+Plugin-Version: 0.0.1
+Plugin-Id: dashboard-plugin
+Plugin-Provider: DRDevelopment
+Plugin-Class: org.drdevelopment.webtool.plugin.DashboardPlugin
+Plugin-Dependencies: 

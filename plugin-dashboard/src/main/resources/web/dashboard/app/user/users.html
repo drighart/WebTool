@@ -1,0 +1,39 @@
+<!-- /#page-wrapper -->
+
+<div ng-controller="UsersCtrl">
+<div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Users</h1>
+
+      <div class="buttons">
+        <button class="btn btn-primary" ng-click="newUser()"><span class="glyphicon glyphicon-user"></span> Register new user</button>
+      </div>
+
+	  <table class="table table-bordered table-hover table-condensed">
+	  	<thead>
+		    <tr style="font-weight: bold">
+	          <th style="width:20%">E-Mail Address</th>
+		      <th style="width:20%">Roles</th>
+	          <th style="width:20%">Display name</th>
+	          <th style="width:10%">Activated</th>
+		      <th style="width:30%"></th>
+		    </tr>
+        </thead>	  
+	    <tr ng-repeat="user in users">
+          <td><span>{{ user.emailAddress }}</span></td>
+          <td><span>{{ user.roles }}</span></td>
+          <td><span>{{ user.displayName }}</span></td>
+          <td><span ng-bind-html='user.activated | activated' style='color:green;font:bold;'></span></td>
+          <td>
+            <div class="buttons">
+              <button class="btn btn-primary" ng-click="edit(user.emailAddress)"><span class="glyphicon glyphicon-pencil"></span> Edit</button>
+              <button class="btn btn-danger" ng-click="remove(user.emailAddress)"><span class="glyphicon glyphicon-trash"></span> Remove</button>
+            </div>  
+          </td>
+	    </tr>
+	  </table>
+
+       </div>
+   </div>
+
+</div>

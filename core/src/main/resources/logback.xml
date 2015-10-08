@@ -1,0 +1,59 @@
+<configuration scan="true" scanPeriod="10 seconds" debug="false">
+  <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />  
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+  <!-- 
+    <withJansi>true</withJansi>
+     -->
+    <encoder>
+      <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="DEFAULT_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>log/default-messages.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <!-- daily rollover -->
+      <fileNamePattern>log/default%d{yyyy-MM-dd_HH}.log</fileNamePattern>
+      <!-- keep 72 hours worth of history -->
+      <maxHistory>72</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
+    </encoder>
+  </appender> 
+
+  <appender name="SQL_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>log/sql/sql.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <!-- daily rollover -->
+      <fileNamePattern>log/sql/sql%d{yyyy-MM-dd_HH}.log</fileNamePattern>
+      <!-- keep 72 hours worth of history -->
+      <maxHistory>24</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
+    </encoder>
+  </appender> 
+
+  <logger name="org.eclipse.jetty" level="WARN" />
+  <logger name="org.jboss.resteasy" level="INFO" />
+  <logger name="org.jboss.resteasy.spi" level="WARN" />
+  <logger name="org.jboss.resteasy.core" level="WARN" />
+  <logger name="ch.qos.logback" level="WARN" />
+  <logger name="org.h2" level="INFO" />
+  <logger name="ro.fortsoft.pf4j.PluginClassLoader" level="INFO" />
+  <logger name="ro.fortsoft.pf4j.DefaultExtensionFinder" level="INFO" />
+  <logger name="ro.fortsoft.pf4j" level="INFO" />
+  <logger name="org.drdevelopment.webtool.plugin.LionExtensionFinder" level="INFO" />
+
+  <logger name="org.drdevelopment.webtool.database.Database" level="DEBUG" additivity="false">
+	<appender-ref ref="SQL_FILE" />
+  </logger>
+
+  <root level="DEBUG">
+      <appender-ref ref="DEFAULT_FILE"/>
+      <appender-ref ref="STDOUT"/>
+  </root>
+
+</configuration>

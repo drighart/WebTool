@@ -1,0 +1,71 @@
+<!-- /#page-wrapper -->
+
+<div ng-controller="PagesCtrl">
+<div class="row">
+    <div class="col-lg-7">
+      <h1 class="page-header">Pages</h1>
+
+      <div class="buttons">
+        <button class="btn btn-primary" ng-click="newPage()">Add new page</button>
+      </div>
+
+	  <table class="table">
+	  	<thead>
+		    <tr style="font-weight: bold">
+	          <th style="width:30%">Name</th>
+		      <th style="width:40%">Title</th>
+		      <th style="width:30%"></th>
+		    </tr>
+        </thead>	  
+	    <tr ng-repeat="page in pages" ng-class="{info: page.type=='PAGE'}">
+          <td>
+          	<div ng-show="page.type=='PAGE'">
+          		<span>{{ page.name }}</span>
+          	</div>
+      		<div ng-show="page.type=='PARAGRAPH'">
+	            <div class="btn-group">
+	              <button class="btn btn-xs btn-primary" ng-click="editParagraph(page)"><span class="glyphicon glyphicon-pencil"></span></button>&nbsp;
+     			  <div ng-show="page.first==false">
+	              	<button class="btn btn-xs btn-primary" ng-click="upParagraph(page)"><span class="glyphicon glyphicon-chevron-up"></span></button>&nbsp;
+				  </div>
+     			  <div ng-show="page.last==false">
+	              	<button class="btn btn-xs btn-primary" ng-click="downParagraph(page)"><span class="glyphicon glyphicon-chevron-down"></span></button>&nbsp;
+	              </div>
+	            </div>
+            </div>
+          </td>
+          <td>
+          	<div ng-show="page.type=='PAGE'">
+          		<span>{{ page.title }}</span>
+          	</div>
+            <div ng-show="page.type=='PARAGRAPH'">
+      			<span>{{ page.position }} - {{ page.template }}</span>
+          	</div>
+          </td>
+          <td class="text-right">
+      		<div ng-show="page.type=='PAGE'">
+	            <div class="buttons">
+	              <button class="btn btn-primary" ng-click="addPage()">Add paragraph</button>
+	              <button class="btn btn-primary" ng-click="editPage(page)"><span class="glyphicon glyphicon-pencil"></span> Edit</button>
+     			  <div ng-show="page.first==false">
+	              	<button class="btn btn-primary" ng-click="upPage(page)"><span class="glyphicon glyphicon-chevron-up"></span> Move up</button>
+				  </div>	              
+     			  <div ng-show="page.last==false">
+	              	<button class="btn btn-primary" ng-click="downPage(page)"><span class="glyphicon glyphicon-chevron-down"></span> Move down</button>
+	              </div>
+	              <button class="btn btn-danger" ng-click="removePage(page)"><span class="glyphicon glyphicon-trash"></span> Remove</button>
+	            </div>  
+            </div>
+            <div ng-show="page.type=='PARAGRAPH'">
+	            <div class="buttons">
+	              <button class="btn btn-xs btn-danger" ng-click="removeParagraph(page)"><span class="glyphicon glyphicon-trash"></span></button>
+	            </div>
+            </div>
+          </td>
+	    </tr>
+	  </table>
+
+       </div>
+   </div>
+
+</div>

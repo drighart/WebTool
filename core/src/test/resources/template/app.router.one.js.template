@@ -1,0 +1,5 @@
+when('/{%testUri%}', {
+    templateUrl: '{%testTemplateUrl%}',
+    controller: '{% testController %}',
+    hideMenus: true
+}).

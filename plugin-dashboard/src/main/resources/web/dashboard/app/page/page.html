@@ -1,0 +1,46 @@
+<!-- /#page-wrapper -->
+
+<div ng-controller="PageCtrl">
+<div class="row">
+    <div class="col-lg-7">
+      <h1 class="page-header">Edit page - {{ page.name }}</h1>
+
+      <div class="well well-lg">
+      <form name="form">
+         <div class="form-group">
+            <button type="button" class="btn btn-success" ng-click="save()"><span class="glyphicon glyphicon-save"></span> Save</button>
+            <button type="button" class="btn btn-danger" ng-click="cancel()">Cancel</button>
+         </div>
+         <div class="form-group">
+           <label>Title</label>
+           <input type="text" class="form-control" ng-model="page.title" required autofocus>
+			<p class="help-block">Fill in the title of the page.</p>
+         </div>
+         <div ng-show="!visibleIntroduction">
+         	<button type="button" class="btn btn-primary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off" ng-click="toggle()">Write introduction</button><br/><br/>
+			<p class="help-block">If you want to write an introduction for your page, click on this button.</p>
+         </div>
+         <div class="form-group" ng-show="visibleIntroduction">
+           <label>Introduction</label>
+           <div text-angular ng-model="page.introduction"></div>
+         </div>
+         <div class="form-group">
+           <label>Content</label>
+           <div text-angular ng-model="page.content"></div>
+         </div>
+         <div class="form-group">
+           <label>Button text</label>
+           <input type="text" class="form-control" ng-model="page.buttonText">
+         </div>
+         <div class="form-group">
+           <label>Tags (comma separated)</label>
+           <input type="text" class="form-control" ng-model="page.tags">
+         </div>
+         <div class="form-group">
+            <button type="button" class="btn btn-success" ng-click="save()"><span class="glyphicon glyphicon-save"></span> Save</button>
+            <button type="button" class="btn btn-danger" ng-click="cancel()">Cancel</button>
+         </div>
+      </form>
+   </div>
+
+</div>

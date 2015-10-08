@@ -1,0 +1,86 @@
+<!-- /#page-wrapper -->
+
+<div ng-controller="ParagraphsCtrl">
+<div class="row">
+    <div class="col-lg-7">
+      <div ng-show="pages.length > 1">
+      	  <br/>
+	      <div class="form-group">
+	        <label>Select a page</label>
+	        <select class="form-control" ng-model="selectedPage" ng-options="page.id as page.name for page in pages | orderBy:'page.name'" ng-change="change(selectedPage)" autofocus></select>
+	      </div>
+	      <div class="col-lg-4 text-center" ng-show="showTipPageSelector">
+			<img src="/dashboard/assets/img/tip-up.png" /><br/>
+			<p class="introhelp">You created a second page! By using this popup, you can select another page and edit their paragraphs.</p><br/>
+		  </div>
+		  <hr/>
+	  </div>
+	</div>
+</div>	
+<div class="row">
+    <div class="col-lg-7">
+      <h2>Paragraphs of page with title '{{ page.title }}'</h2>
+
+      <div class="col-lg-4 text-center" ng-show="paragraphs.length == 0 && pages.length < 2">
+		<p class="introhelp">You created a new page! It is time to fill the page with paragraphs. The page can have an unlimited number of
+		paragraphs. Every paragraph has a specific template. In this way every page is unique on your website. Click the button below to
+		add a new paragraph.</p>
+		<br/><img src="/dashboard/assets/img/tip-down.png" /><br/><br/>
+        <button class="btn btn-primary" ng-click="newParagraph()">Add new paragraph</button>
+	  </div>
+      <div class="buttons" ng-show="paragraphs.length > 0">
+        <button class="btn btn-primary" ng-click="newParagraph()">Add new paragraph</button>
+      </div>
+      <div class="col-lg-3 text-left" ng-show="paragraphs.length == 2 && nrPages == 1">
+		<p class="introhelp"><br/>
+		With the button <span class="glyphicon glyphicon-chevron-up"></span> and <span class="glyphicon glyphicon-chevron-down"></span> you 
+		can change the order of the paragraphs up and down in the page. Try to edit the paragraph.
+		</p>
+		<img src="/dashboard/assets/img/tip-down.png" /><br/>
+	  </div>
+      
+	  <table class="table" ng-show="paragraphs.length > 0">
+	  	<thead>
+		    <tr style="font-weight: bold">
+	          <th style="width:10%"></th>
+		      <th style="width:70%">Content</th>
+		      <th style="width:20%"></th>
+		    </tr>
+        </thead>	  
+	    <tr ng-repeat="paragraph in paragraphs">
+          <td>
+            <div class="btn-group">
+              <button class="btn btn-xs btn-primary" ng-click="edit(paragraph)"><span class="glyphicon glyphicon-pencil"></span></button>&nbsp;
+    			  <div ng-show="paragraph.first==false">
+              	<button class="btn btn-xs btn-primary" ng-click="up(paragraph)"><span class="glyphicon glyphicon-chevron-up"></span></button>&nbsp;
+			  </div>
+    			  <div ng-show="paragraph.last==false">
+              	<button class="btn btn-xs btn-primary" ng-click="down(paragraph)"><span class="glyphicon glyphicon-chevron-down"></span></button>&nbsp;
+              </div>
+            </div>
+          </td>  
+          <td>
+            <span ng-bind-html='paragraph | displayContent'></span>
+          </td>
+          <td class="text-right">
+            <div class="buttons">
+              <button class="btn btn-xs btn-danger" ng-click="remove(paragraph)"><span class="glyphicon glyphicon-trash"></span></button>
+            </div>
+         </td>
+	    </tr>
+	  </table>
+      <div class="col-lg-3 text-left" ng-show="paragraphs.length == 1 && nrPages == 1">
+		<br/><img src="/dashboard/assets/img/tip-up.png" /><br/><br/>
+		<p class="introhelp">
+		With the <span class="glyphicon glyphicon-pencil"></span> button you can edit the paragraph. And with the <span class="glyphicon glyphicon-trash"></span>
+		you can remove a paragraph. Try to edit the paragraph or add another paragraph.
+		</p>
+	  </div>
+
+      <div class="col-lg-3 text-left" ng-show="paragraphs.length > 1">
+        <button type="button" class="btn btn-default" ng-click="back()">Back to dashboard</button>
+      </div>
+
+   </div>
+
+</div>

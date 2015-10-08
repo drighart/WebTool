@@ -1,0 +1,43 @@
+<!-- /#page-wrapper -->
+
+<div ng-controller="ConfigurationWebsiteCtrl">
+<div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Configuration - website</h1>
+
+	  <table class="table table-bordered table-hover table-condensed">
+	  	<thead>
+		    <tr style="font-weight: bold">
+		      <th style="width:35%">Name</th>
+		      <th style="width:40%">Value</th>
+		      <th style="width:25%">Edit</th>
+		    </tr>
+        </thead>	  
+	    <tr ng-repeat="configuration in configurations">
+	      <td>
+	        {{ configuration.name || 'empty' }}
+	      </td>
+          <td>
+            <!-- editable username (text with validation) -->
+            <span editable-textarea="configuration.value" e-name="value" e-form="rowform" e-required e-rows="10" e-cols="60" escape="true">
+              {{ configuration.value || 'empty' }}
+            </span>
+          </td>
+	      <td style="white-space: nowrap">
+	        <!-- form -->
+	        <form editable-form name="rowform" onbeforesave="saveConfiguration($data, configuration.name)" ng-show="rowform.$visible" class="form-buttons form-inline" shown="inserted == configuration">
+	          <button type="submit" ng-disabled="rowform.$waiting" class="btn btn-primary"><span class="glyphicon glyphicon-save"></span> Save</button>
+	          <button type="button" ng-disabled="rowform.$waiting" ng-click="rowform.$cancel()" class="btn btn-default">Cancel</button>
+	        </form>
+	        <div class="buttons" ng-show="!rowform.$visible">
+	          <button class="btn btn-primary" ng-click="rowform.$show()"><span class="glyphicon glyphicon-pencil"></span> Edit</button>
+	        </div>  
+	      </td>
+	    </tr>
+	  </table>
+
+       </div>
+       <!-- /.col-lg-12 -->
+   </div>
+
+</div>
