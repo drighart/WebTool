@@ -3,12 +3,12 @@
   <parent>
     <artifactId>WebTool</artifactId>
     <groupId>org.drdevelopment.webtool</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.2-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>drdevelopment-core</artifactId>
   <name>DRDevelopment - Core</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.2-SNAPSHOT</version>
   <build>
     <pluginManagement>
       <plugins>

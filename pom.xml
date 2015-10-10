@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.drdevelopment.webtool</groupId>
   <artifactId>WebTool</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.2-SNAPSHOT</version>
   <name>DRDevelopment</name>
   <packaging>pom</packaging>
   
