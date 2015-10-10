@@ -321,13 +321,13 @@ public class Plugins {
     private static void copyDefaultPlugInsInDevelopmentMode() {
     	if (Config.getConfig().isDevelopmentMode()) {
     		LOGGER.debug("Copy default-plugins to the plugins folder, to make the software work (only in DEVELOPMENT_MODE).");
-    		copyPlugIn("plugin-example", "drdevelopment-plugin-example-1.0-SNAPSHOT.zip");
-    		copyPlugIn("plugin-example-servlet", "drdevelopment-example-servlet-plugin-1.0-SNAPSHOT.zip");
-    		copyPlugIn("plugin-users", "drdevelopment-users-plugin-1.0-SNAPSHOT.zip");
-    		copyPlugIn("plugin-mailservice", "drdevelopment-mailservice-plugin-1.0-SNAPSHOT.zip");
-    		copyPlugIn("plugin-dashboard", "drdevelopment-dashboard-plugin-1.0-SNAPSHOT.zip");
-    		copyPlugIn("plugin-app-theme", "drdevelopment-app-theme-plugin-1.0-SNAPSHOT.zip");
-    		copyPlugIn("plugin-setup-new-site", "drdevelopment-setup-new-site-plugin-1.0-SNAPSHOT.zip");
+    		copyPlugIn("plugin-example", "drdevelopment-plugin-example-0.2-SNAPSHOT.zip");
+    		copyPlugIn("plugin-example-servlet", "drdevelopment-example-servlet-plugin-0.2-SNAPSHOT.zip");
+    		copyPlugIn("plugin-users", "drdevelopment-users-plugin-0.2-SNAPSHOT.zip");
+    		copyPlugIn("plugin-mailservice", "drdevelopment-mailservice-plugin-0.2-SNAPSHOT.zip");
+    		copyPlugIn("plugin-dashboard", "drdevelopment-dashboard-plugin-0.2-SNAPSHOT.zip");
+    		copyPlugIn("plugin-app-theme", "drdevelopment-app-theme-plugin-0.2-SNAPSHOT.zip");
+    		copyPlugIn("plugin-setup-new-site", "drdevelopment-setup-new-site-plugin-0.2-SNAPSHOT.zip");
     	}
     }
 

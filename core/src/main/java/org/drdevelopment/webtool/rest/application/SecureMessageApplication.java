@@ -68,6 +68,8 @@ public class SecureMessageApplication extends Application {
        		services.add(UsersRest.class);
        		services.add(UserRest.class);
     		services.add(LoginRest.class);
+    		
+    		LOGGER.debug("Secure rest services registered.");
     	}
     	return services;
     }

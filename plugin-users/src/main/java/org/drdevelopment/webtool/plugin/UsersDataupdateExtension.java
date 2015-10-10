@@ -10,7 +10,7 @@ import ro.fortsoft.pf4j.Extension;
 
 @Extension
 public class UsersDataupdateExtension implements PluginDataupdate {
-	private static final String PLUGIN_FOLDER = "drdevelopment-users-plugin-1.0-SNAPSHOT";
+	private static final String PLUGIN_FOLDER = "drdevelopment-users-plugin-0.2-SNAPSHOT";
 	private static final Logger LOGGER = LoggerFactory.getLogger(UsersDataupdateExtension.class);
 	private static final int FINAL_DATA_UPDATE_VERSION = 1;
 	
