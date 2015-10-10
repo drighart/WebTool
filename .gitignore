@@ -46,4 +46,9 @@ Temporary Items
 .settings/
 .classpath
 .project
+
+# WebTool specific files
 target/
+core/plugins/
+core/log/
+core/data/
