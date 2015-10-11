@@ -52,3 +52,4 @@ target/
 core/plugins/
 core/log/
 core/data/
+distribution/
