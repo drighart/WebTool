@@ -4,7 +4,7 @@ The core is also an integration of several powerfull Java frameworks, like **Jet
 
 This is also free-of-anything and is delivered with the **MIT-license**. Hopefully, you will enjoy WebTool and if you are interested, help me to improve it! Please, click :star: (on top of the screen) to star the project or fork this project. 
 
-## Build
+## Build and run
 If you have installed Maven and Java, please execute the follow command from the parent directory.
 ```
 mvn clean install -DskipTests
@@ -13,7 +13,8 @@ After you build the project, the folder distribution is created. Go to this fold
 ```
 java -jar drdevelopment-core-0.2-SNAPSHOT.jar
 ```
-The application will start and will create more folders like: data, logs and configuration. After the database is created and the webserver is started, open a browser and go to http://localhost:8080
+The application will start and will create more folders like: data, logs and configuration. After the database is created and the webserver is started, open a browser and go to *http://localhost:8080*
 
 You will see the following screen:
+
 ![Setup with WebTool](http://www.drdevelopment.org/static/images/setup.png)
