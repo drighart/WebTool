@@ -256,81 +256,16 @@
                     <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
-<!--
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>2.6</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>org.drdevelopment.webtool.Main</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>            
--->
-            <!-- Includes the runtime dependencies -->
-<!--
-            <plugin>
-                <groupId>org.dstovall</groupId>
-                <artifactId>onejar-maven-plugin</artifactId>
-                <version>1.4.4</version>
-                <executions>
-                  <execution>
-                    <goals>
-                        <goal>one-jar</goal>
-                    </goals>
-                  </execution>
-                </executions>
-            </plugin>
--->
-            
+
         </plugins>
-        <pluginManagement>
-            <plugins>
-                <!--This plugin's configuration is used to store Eclipse 
-                    m2e settings only. It has no influence on the Maven build itself. Specific 
-                    Eclipse config to avoid errors -->
-                <plugin>
-                    <groupId>org.eclipse.m2e</groupId>
-                    <artifactId>lifecycle-mapping</artifactId>
-                    <version>1.0.0</version>
-                    <configuration>
-                        <lifecycleMappingMetadata>
-                            <pluginExecutions>
-                                <pluginExecution>
-                                    <pluginExecutionFilter>
-                                        <groupId>org.jacoco</groupId>
-                                        <artifactId>
-                                            jacoco-maven-plugin
-                                        </artifactId>
-                                        <versionRange>
-                                            [0.7.2.201409121644,)
-                                        </versionRange>
-                                        <goals>
-                                            <goal>prepare-agent</goal>
-                                        </goals>
-                                    </pluginExecutionFilter>
-                                    <action>
-                                        <ignore />
-                                    </action>
-                                </pluginExecution>
-                            </pluginExecutions>
-                        </lifecycleMappingMetadata>
-                    </configuration>
-                </plugin>
-                
-            </plugins>
-        </pluginManagement>
     </build>
 
-    <!-- One-Jar is in the googlecode repository -->
+    <!-- One-Jar is in the googlecode repository 
     <pluginRepositories>
       <pluginRepository>
           <id>onejar-maven-plugin.googlecode.com</id>
           <url>http://onejar-maven-plugin.googlecode.com/svn/mavenrepo</url>
       </pluginRepository>
     </pluginRepositories>
-
+-->
 </project>
