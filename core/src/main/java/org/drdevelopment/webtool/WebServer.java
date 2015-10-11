@@ -3,20 +3,18 @@ package org.drdevelopment.webtool;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.EnumSet;
 import java.util.List;
 import java.util.Set;
 
-import javax.servlet.DispatcherType;
 import javax.servlet.http.HttpServlet;
 
 import org.drdevelopment.webtool.configuration.Config;
-import org.drdevelopment.webtool.filter.FirstTimeFilter;
 import org.drdevelopment.webtool.plugin.util.FileUtil;
 import org.drdevelopment.webtool.rest.application.SecureMessageApplication;
 import org.drdevelopment.webtool.rest.application.UnsecuredMessageApplication;
 import org.drdevelopment.webtool.servlet.AssetsServlet;
 import org.drdevelopment.webtool.servlet.ErrorPageHandler;
+import org.drdevelopment.webtool.servlet.RedirectServlet;
 import org.drdevelopment.webtool.template.TemplateEngine;
 import org.eclipse.jetty.http.HttpVersion;
 import org.eclipse.jetty.security.ConstraintMapping;
@@ -38,7 +36,6 @@ import org.eclipse.jetty.server.handler.RequestLogHandler;
 import org.eclipse.jetty.server.handler.StatisticsHandler;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
-import org.eclipse.jetty.servlets.DoSFilter;
 import org.eclipse.jetty.util.component.LifeCycle;
 import org.eclipse.jetty.util.component.LifeCycle.Listener;
 import org.eclipse.jetty.util.security.Constraint;
@@ -62,7 +59,6 @@ public class WebServer implements Runnable {
 		context = new ServletContextHandler(ServletContextHandler.SESSIONS | ServletContextHandler.SECURITY);
         context.setContextPath("/");
         context.setWelcomeFiles(WELCOME_FILES);
-//        context.addServlet(new ServletHolder(new SystemRest()), "/rest/system/*");
 
         context.setErrorHandler(new ErrorPageHandler());
         // In case the we develope locally, the target directory should be added. During production the resource files are used
@@ -71,9 +67,10 @@ public class WebServer implements Runnable {
         if (!FileUtil.isFolderExists(loginFolder)) {
         	loginFolder = FileUtil.getCurrentFolder() + File.separator + "classes/web";
         }
+        context.addServlet(new ServletHolder(new RedirectServlet("/app/index.html")), "/");
+        		
 //        context.addServlet(new ServletHolder(new AssetsServlet(loginFolder)), "/");
 
-//        context.addFilter(FirstTimeFilter.class, "/*", EnumSet.of(DispatcherType.REQUEST));
 //        context.addFilter(DoSFilter.class, "/*", EnumSet.of(DispatcherType.REQUEST));
         
 //        context.addServlet(new ServletHolder(new HelloServlet("TEST")), "/app/page/*");
