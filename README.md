@@ -15,6 +15,5 @@ java -jar drdevelopment-core-0.2-SNAPSHOT.jar
 ```
 The application will start and will create more folders like: data, logs and configuration. After the database is created and the webserver is started, open a browser and go to http://localhost:8080
 
-## Setup your website!
-
+You will see the following screen:
 ![Setup with WebTool](http://www.drdevelopment.org/static/images/setup.png)
