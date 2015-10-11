@@ -9,7 +9,12 @@ If you have installed Maven and Java, please execute the follow command from the
 ```
 mvn clean install -DskipTests
 ```
+After you build the project, the folder distribution is created. Go to this folder and start WebTool with the following command:
+```
+java -jar drdevelopment-core-0.2-SNAPSHOT.jar
+```
+The application will start and will create more folders like: data, logs and configuration. After the database is created and the webserver is started, open a browser and go to http://localhost:8080
 
-## A fully working version
+## Setup your website!
 
 ![Setup with WebTool](http://www.drdevelopment.org/static/images/setup.png)
