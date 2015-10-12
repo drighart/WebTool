@@ -27,7 +27,7 @@ After you logged in, you are able to enter content for your website:
 
 ![Setup with WebTool](http://www.drdevelopment.org/static/images/paragraph.png)
 
-And after 5 minutes dragging and uploading images and entering content, you can show your website:
+And after 5 minutes dragging and uploading images and entering content, you can display your website in the browser:
 
 ![Setup with WebTool](http://www.drdevelopment.org/static/images/website.png)
 
