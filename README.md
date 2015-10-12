@@ -15,6 +15,23 @@ java -jar drdevelopment-core-0.2-SNAPSHOT.jar
 ```
 The application will start and will create more folders like: data, logs and configuration. After the database is created and the webserver is started, open a browser and go to *http://localhost:8080*
 
-You will see the following screen:
+## Welcome to WebTool
+When you started the application, go to url *http://localhost:8080*
+You will see the setup-screen:
 
 ![Setup with WebTool](http://www.drdevelopment.org/static/images/setup.png)
+
+![Setup with WebTool](http://www.drdevelopment.org/static/images/login.png)
+
+After you logged in, you are able to enter content for your website:
+
+![Setup with WebTool](http://www.drdevelopment.org/static/images/paragraph.png)
+
+And after 5 minutes dragging and uploading images and entering content, you can show your website:
+
+![Setup with WebTool](http://www.drdevelopment.org/static/images/website.png)
+
+The website is made with Bootstrap and Angular and is fully mobile. The background image / fonts and colors can be configured.
+
+## Architecture
+
