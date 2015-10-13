@@ -44,4 +44,4 @@ The following frameworks are used in WebTool:
 | Logback              | Ultra fast logging framework                            | https://github.com/qos-ch/logback       |
 | Appache Commons CLI  | Library for command line interfaces                     | https://github.com/apache/commons-cli   |
 | Appache Commons IO   | Library for additional IO                               | https://github.com/apache/commons-io    |
-| Appache Commons Lang | Library for language support                            | https://github.com/apache/commons-lang  |
+| Appache Commons Lang | Lang provides a host of helper utilities for the java.lang API                            | https://github.com/apache/commons-lang  |
