@@ -1,5 +1,5 @@
 # Welcome to WebTool
-WebTool is another tool to setup and edit your website (in only 5 minutes). This is one of the goals of this project. The other goal is to create a Core which can be used to create micro-services. Due to its pluggable components it is easy to extend.
+WebTool is a new tool to setup and edit your website (in only 5 minutes). This is one of the goals of this project. The other goal is to create a Core which can be used to create micro-services. Due to its pluggable components it is easy to extend.
 The core is also an integration of several powerfull Java frameworks, like **Jetty**, **Angular**, **RestEasy**, **Jackson**, **H2**, **JDbi**, **Appache Commons** and security (JAAS). When I start to create a new web-application, it always costs me a lot of time to find and integrate these frameworks.
 
 This is also free-of-anything and is delivered with the **MIT-license**. Hopefully, you will enjoy WebTool and if you are interested, help me to improve it! Please, click :star: (on top of the screen) to star the project or fork this project. 
@@ -34,4 +34,6 @@ And after 5 minutes dragging and uploading images and entering content, you can 
 The website is made with Bootstrap and Angular and is fully mobile. The background image / fonts and colors can be configured.
 
 ## Architecture
+
+This project contains several plugins which are loaded during startup. New plugins can be made and attached to extend the system.
 
