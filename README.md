@@ -37,3 +37,9 @@ The website is made with Bootstrap and Angular and is fully mobile. The backgrou
 
 This project contains several plugins which are loaded during startup. New plugins can be made and attached to extend the system.
 
+The following frameworks are used in WebTool:
+
+| Name                | Description                                               | Link                                    |
+| ------------------- | --------------------------------------------------------- | --------------------------------------- |
+| Logback             | Ultra fast logging framework                              | https://github.com/qos-ch/logback       |
+| Appache Commons     | Apache Commons (CLI, IO, Lang)                            | https://github.com/apache/commons-cli   |
