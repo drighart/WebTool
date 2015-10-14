@@ -39,16 +39,18 @@ WebTool Core provides several services to the developer, like:
 * PF4J makes it possible to build your microservice or application with plugins or modules. This pushes the developer to think about the modularization of the software. The plugins can be replaced easily by replacing them in a folder. The plugin system is not as advanced as OSGI and the plugins can NOT be replaced or turned on or off during runtime. However the API between the core and the plugins makes a really nice distinction between the plugins.
 * Implementing a REST service with annotations and making this REST service connect to the H2 database. The REST service is by default form-based secured (JAAS).
 * The Dashboard- and App-theme-plugin of WebTool are build with Angular and Bootstrap which can be extended easily. Especially the Dashboard-plugin can be used as template for further development. Due to the plugin-system it is possible to create multiple GUI's.
-* The core contains an overview of REST service that are registered which can be retrieved with the url localhost:8080/rest/services/overview
+* The core contains an overview of REST services that are registered which can be retrieved with the url *http://localhost:8080/rest/services/overview*
 * The core is packaged as one jar which can be distributed easily (no jar-hell). The distribution contains only the core-jar and the plugin-jars in the plugins-folder.
 * The core and plugins contain a data-update mechanism. This mechanism makes it possible to distribute version 1 of the database and make changes in the data-model. When version 2 is distributed, the provided migration-script will automatically update the database.
-* The database and webserver are embedded in the application. This is a disadvantage and advantage! For small applications this is not a problem. If you want to make bigger application, please use an external database and connect it with JDBC. Java Core runs on 1 CPU Core (because the JVM runs on 1 core and everthing is embedded in one jar) and therefor the microservice itself is not scalable! If you create a microservice, always make it stateless.
-* The Jetty webserver provides many functionality out-of-the-box, like security, http/https support and support to create servlets. It's nasty to configure it and make it all work together. 
-* The core provides a health status rest services which can be monitored by an external monitoring application. You can extend this health service and notify the external monitoring application that something is wrong with your microservice or application.
+* The database and webserver are embedded in the application. This is a disadvantage and advantage! For small applications this is not a problem. If you want to make bigger applications, please use an external database and connect it with JDBC. Java Core runs on 1 CPU Core (because the JVM runs on 1 core and everthing is embedded in one jar) and therefor the microservice itself is not scalable! If you create a microservice, always make it stateless.
+* The Jetty webserver provides many functionalities out-of-the-box, like security, http/https support and support to create servlets. It's nasty to configure it and make it all work together. So, we did the configuration for you and made the interesting configuration available in a configuration file.
+* The core provides a health status rest service which can be monitored by an external monitoring application. You can extend this health service and notify the external monitoring application that something is wrong with your microservice or application. The health status can be retrieved on url *http://localhost:8080/rest/unsecured/health*
 
-So, hopefully, the points above will make it attractive for developers to create there own microservices or web-applications!
+So, hopefully, the points above will make it attractive for developers to create there own microservices and web-applications without integrating those nice frameworks! It runs all out-of-the-box.
 
-## Welcome to WebTool
+I created WebTool as an application to edit and setup websites. In this way I was able to have a real use-case to work on, and knew which functionality was really needed in the core.
+
+## WebTool
 When you started the application, go to url *http://localhost:8080*
 You will see the setup-screen:
 
