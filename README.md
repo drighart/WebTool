@@ -67,3 +67,6 @@ And after 5 minutes dragging and uploading images and entering content, you can 
 ![Setup with WebTool](http://www.drdevelopment.org/static/images/website.png)
 
 The website is made with Bootstrap and Angular and is fully mobile. The background image / fonts and colors can be configured.
+
+##Contribute
+You are most welcome to contribute to WebTool!
