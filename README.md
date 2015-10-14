@@ -45,3 +45,9 @@ The following frameworks are used in WebTool:
 | Appache Commons CLI  | Library for command line interfaces                     | https://github.com/apache/commons-cli   |
 | Appache Commons IO   | Library for additional IO                               | https://github.com/apache/commons-io    |
 | Appache Commons Lang | Lang provides a host of helper utilities for the java.lang API                            | https://github.com/apache/commons-lang  |
+| Jackson | the standard JSON library for Java (or JVM platform in general), or, as the "best JSON parser for Java". Or simply as "JSON for Java" | https://github.com/FasterXML/jackson |
+| RestEasy | JBoss framework for developing client and server RESTful applications and services in Java | https://github.com/resteasy/Resteasy |
+| PF4J | Plugin Framework for Java | https://github.com/decebals/pf4j |
+| jDBI | jDBI provides a convenience interface for SQL operations in Java | https://github.com/jdbi/jdbi |
+| Angular | Angular is a development platform for building mobile and desktop web applications | https://github.com/angular/angular |
+| Jetty | Jetty is a lightweight highly scalable java based web server and servlet engine | https://github.com/eclipse/jetty.project |
