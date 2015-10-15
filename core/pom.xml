@@ -274,6 +274,7 @@
                           <artifactId>${project.artifactId}</artifactId>
                           <version>${project.version}</version>
                           <type>${project.packaging}</type>
+                          <destFileName>webtool.jar</destFileName>
                         </artifactItem>
                     </artifactItems>
                     <outputDirectory>../distribution</outputDirectory>

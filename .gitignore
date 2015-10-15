@@ -53,3 +53,4 @@ core/plugins/
 core/log/
 core/data/
 distribution/
+dependency-reduced-pom.xml

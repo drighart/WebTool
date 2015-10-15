@@ -15,3 +15,6 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+plugin-app-theme/src/main/resources/web/app/js/* linguist-vendored
+plugin-dashboard/src/main/resources/web/dashboard/assets/* linguist-vendored
