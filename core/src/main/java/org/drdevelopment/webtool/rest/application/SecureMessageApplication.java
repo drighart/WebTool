@@ -10,12 +10,11 @@ import org.drdevelopment.webtool.rest.ImageRest;
 import org.drdevelopment.webtool.rest.ImagesRest;
 import org.drdevelopment.webtool.rest.JacksonProducer;
 import org.drdevelopment.webtool.rest.LoginRest;
-import org.drdevelopment.webtool.rest.MenuItemRest;
-import org.drdevelopment.webtool.rest.MenuItemsRest;
 import org.drdevelopment.webtool.rest.OverviewRest;
 import org.drdevelopment.webtool.rest.PageRest;
 import org.drdevelopment.webtool.rest.PagesRest;
 import org.drdevelopment.webtool.rest.ParagraphRest;
+import org.drdevelopment.webtool.rest.PreferenceRest;
 import org.drdevelopment.webtool.rest.RestExceptionHandler;
 import org.drdevelopment.webtool.rest.SystemRest;
 import org.drdevelopment.webtool.rest.TestServiceRest;
@@ -61,13 +60,12 @@ public class SecureMessageApplication extends Application {
        		services.add(PagesRest.class);
        		services.add(PageRest.class);
        		services.add(ParagraphRest.class);
-       		services.add(MenuItemsRest.class);
-       		services.add(MenuItemRest.class);
        		services.add(ImageRest.class);
        		services.add(ImagesRest.class);
        		services.add(UsersRest.class);
        		services.add(UserRest.class);
     		services.add(LoginRest.class);
+    		services.add(PreferenceRest.class);
     		
     		LOGGER.debug("Secure rest services registered.");
     	}

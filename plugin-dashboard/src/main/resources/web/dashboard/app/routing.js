@@ -17,8 +17,8 @@ function($stateProvider, $urlRouterProvider, USER_ROLES) {
     })
   	.state('preferences', {
       url: "/preferences",
-      templateUrl: "preference/preference.html",
-      controller: 'PreferenceCtrl',
+      templateUrl: "preferences/preferences.html",
+      controller: 'PreferencesCtrl',
       data: {
           authorizedRoles: [USER_ROLES.admin, USER_ROLES.editor, USER_ROLES.guest]
       }

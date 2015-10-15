@@ -172,6 +172,10 @@ img {
     color:#aaa;
 }
 
+.help-block{
+	font-size:0.9em;
+}
+
 .btn-group {
   display: flex;
 }

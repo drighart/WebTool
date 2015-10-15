@@ -36,13 +36,5 @@ CREATE TABLE IF NOT EXISTS DATA.PARAGRAPH(ID INTEGER PRIMARY KEY AUTO_INCREMENT,
 -- INSERT INTO DATA.PARAGRAPH VALUES (1, NOW(), NOW(), 1, 'TEXT', 'This is the introduction of the page.', '', 1);
 -- INSERT INTO DATA.PARAGRAPH VALUES (2, NOW(), NOW(), 2, 'TEXT', 'This is the real text of the page.', '', 1);
 
---- MENUS -----------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS DATA.MENU_ITEM(CREATED TIMESTAMP, MODIFIED TIMESTAMP, POSITION INTEGER, NAME VARCHAR(64), PAGE_ID INTEGER, ON_CURRENT_PAGE BOOLEAN);
-
-INSERT INTO DATA.MENU_ITEM VALUES (NOW(), NOW(), 1, 'Welcome', 1, true);
-INSERT INTO DATA.MENU_ITEM VALUES (NOW(), NOW(), 2, 'About', 2, true);
-INSERT INTO DATA.MENU_ITEM VALUES (NOW(), NOW(), 3, 'Services', 3, true);
-INSERT INTO DATA.MENU_ITEM VALUES (NOW(), NOW(), 4, 'Contact', 4, true);
-
 --- IMAGES ----------------------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS DATA.IMAGE(CREATED TIMESTAMP, MODIFIED TIMESTAMP, NAME VARCHAR(64) PRIMARY KEY, TAGS VARCHAR(64));

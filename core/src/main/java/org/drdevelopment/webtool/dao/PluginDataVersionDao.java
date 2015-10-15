@@ -27,7 +27,7 @@ public interface PluginDataVersionDao {
     void setRunning(@Bind("running") boolean running);
 
     @SqlUpdate("UPDATE DATA.PLUGIN SET MODIFIED=CURRENT_TIMESTAMP(), RUNNING=:running WHERE PLUGIN_ID=:pluginId")
-    void setRunning(@Bind("pluginId") String pluginId, @Bind("running") boolean running);
+    int setRunning(@Bind("pluginId") String pluginId, @Bind("running") boolean running);
 
     @SqlQuery("SELECT * FROM DATA.PLUGIN")
     @Mapper(PluginMapper.class)

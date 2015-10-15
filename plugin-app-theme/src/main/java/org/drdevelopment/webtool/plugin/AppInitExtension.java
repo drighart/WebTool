@@ -44,7 +44,7 @@ public class AppInitExtension implements PluginInitServices {
 		templateProcessors.add(createConfigurationItemTemplateProcessor("primaryColor", "Website primary color"));
 		templateProcessors.add(createConfigurationItemTemplateProcessor("buttonPressColor", "Website button press color"));
 		templateProcessors.add(createConfigurationItemTemplateProcessor("borderColor", "Website border color"));
-		templateProcessors.add(createConfigurationItemTemplateProcessor("headerImage", "Website header image"));
+		templateProcessors.add(createConfigurationItemTemplateProcessor("websiteImage", "Website image-name"));
 		templateProcessors.add(createConfigurationItemTemplateProcessor("headerColor", "Website header color"));
 		templateProcessors.add(createConfigurationItemTemplateProcessor("textFadedColor", "Website text faded color"));
 
@@ -63,7 +63,7 @@ public class AppInitExtension implements PluginInitServices {
 		configurationItems.add(new ConfigurationItemImpl("Website border color", "#ed431f", ConfigurationTypeOfInput.COLOR));
 		configurationItems.add(new ConfigurationItemImpl("Website header color", "#fff", ConfigurationTypeOfInput.COLOR));
 		configurationItems.add(new ConfigurationItemImpl("Website text faded color", "rgba(255,255,255,.7)", ConfigurationTypeOfInput.COLOR));
-		configurationItems.add(new ConfigurationItemImpl("Website header image", "header.jpg", ConfigurationTypeOfInput.TEXT));
+		configurationItems.add(new ConfigurationItemImpl("Website image-name", "header.jpg", ConfigurationTypeOfInput.TEXT));
 		
 		return configurationItems;
 	}

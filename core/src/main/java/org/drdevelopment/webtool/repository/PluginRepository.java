@@ -3,10 +3,14 @@ package org.drdevelopment.webtool.repository;
 import java.util.List;
 
 import org.drdevelopment.webtool.Services;
+import org.drdevelopment.webtool.WebServer;
 import org.drdevelopment.webtool.dao.PluginDataVersionDao;
 import org.drdevelopment.webtool.model.Plugin;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class PluginRepository {
+	private static final Logger LOGGER = LoggerFactory.getLogger(PluginRepository.class);
 
 	private PluginRepository() {
 		// no constructor.
@@ -20,7 +24,10 @@ public class PluginRepository {
 
 	public static void setRunning(String pluginId, boolean runningFlag) {
 		PluginDataVersionDao dao = Services.getServices().getDbi().open(PluginDataVersionDao.class);
-        dao.setRunning(pluginId, runningFlag);
+        int result = dao.setRunning(pluginId, runningFlag);
+        if (result != 1) {
+        	LOGGER.warn("The running flag for plugin {} could not be set!", pluginId);
+        }
         Services.getServices().getDbi().close(dao);
 	}
 

@@ -63,6 +63,8 @@ public class Plugins {
         for (PluginWrapper pluginWrapper : startedPlugins) {
             String pluginId = pluginWrapper.getDescriptor().getPluginId();
 
+            LOGGER.info("Plugin: {}", pluginId);
+            
             org.drdevelopment.webtool.model.Plugin plugin = PluginRepository.find(pluginId);
             if (plugin == null) {
             	PluginRepository.insert(pluginId, 0);
@@ -98,6 +100,7 @@ public class Plugins {
 		PluginRepository.setAllRunning(false);
         for (PluginWrapper pluginWrapper : startedPlugins) {
             String pluginId = pluginWrapper.getDescriptor().getPluginId();
+            LOGGER.debug("Set running for plugin {}", pluginId);
     		PluginRepository.setRunning(pluginId, true);
         }
         

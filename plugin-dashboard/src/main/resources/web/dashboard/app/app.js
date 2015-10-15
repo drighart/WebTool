@@ -4,7 +4,7 @@ angular.module('dashboard', []);
 
 var dashboard = angular.module('dashboard', [
   'dashboard.dashboard',
-  'dashboard.preference',
+  'dashboard.preferences',
   'dashboard.pages',
   'dashboard.paragraphs',
   'dashboard.paragraph',

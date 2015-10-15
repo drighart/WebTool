@@ -46,8 +46,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class WebServer implements Runnable {
-    private static final String WEB_THREAD = "web-thread";
 	private static final Logger LOGGER = LoggerFactory.getLogger(WebServer.class);
+    private static final String WEB_THREAD = "web-thread";
     private static final String MESSAGE_APPLICATION_NAME = SecureMessageApplication.class.getName();
     private static final String UNSECURED_MESSAGE_APPLICATION_NAME = UnsecuredMessageApplication.class.getName();
     private static final String[] WELCOME_FILES = { "index.html" };

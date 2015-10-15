@@ -20,73 +20,69 @@
 
 package org.drdevelopment.webtool.model;
 
-import java.time.LocalDateTime;
-
-public class MenuItem {
-
-	private LocalDateTime created;
-	private LocalDateTime modified;
+/**
+ * @author righard
+ *
+ */
+public class Preferences {
 	
-	private String name;
-	private Integer position;
-	private Integer pageId;
-	private Boolean onCurrentPage;
-	
-	public MenuItem() {
+	private String websiteName;
+	private String websiteTitle;
+	private String websiteSubTitle;
+	private String contactPhone;
+	private String contactEmail;
+	private String websiteImageName;
+
+	public Preferences() {
 		super();
 	}
 
-	public MenuItem(Integer position, String name, Integer pageId) {
-		super();
-		this.position = position;
-		this.created = LocalDateTime.now();
-		this.modified = LocalDateTime.now();
-		this.name = name;
-		this.pageId = pageId;
+	public String getWebsiteImageName() {
+		return websiteImageName;
 	}
 
-	public LocalDateTime getCreated() {
-		return created;
+	public void setWebsiteImageName(String websiteImageName) {
+		this.websiteImageName = websiteImageName;
 	}
 
-	public void setCreated(LocalDateTime created) {
-		this.created = created;
+	public String getWebsiteName() {
+		return websiteName;
 	}
 
-	public LocalDateTime getModified() {
-		return modified;
+	public void setWebsiteName(String websiteName) {
+		this.websiteName = websiteName;
 	}
 
-	public void setModified(LocalDateTime modified) {
-		this.modified = modified;
+	public String getWebsiteTitle() {
+		return websiteTitle;
 	}
 
-	public String getName() {
-		return name;
+	public void setWebsiteTitle(String websiteTitle) {
+		this.websiteTitle = websiteTitle;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public String getWebsiteSubTitle() {
+		return websiteSubTitle;
 	}
 
-	public Integer getPosition() {
-		return position;
+	public void setWebsiteSubTitle(String websiteSubTitle) {
+		this.websiteSubTitle = websiteSubTitle;
 	}
 
-	public void setPosition(Integer position) {
-		this.position = position;
+	public String getContactPhone() {
+		return contactPhone;
 	}
 
-	public Integer getPageId() {
-		return pageId;
+	public void setContactPhone(String contactPhone) {
+		this.contactPhone = contactPhone;
 	}
 
-	public Boolean getOnCurrentPage() {
-		return onCurrentPage;
+	public String getContactEmail() {
+		return contactEmail;
 	}
 
-	public void setOnCurrentPage(Boolean onCurrentPage) {
-		this.onCurrentPage = onCurrentPage;
+	public void setContactEmail(String contactEmail) {
+		this.contactEmail = contactEmail;
 	}
 	
 }

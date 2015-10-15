@@ -1,0 +1,89 @@
+<!-- /#page-wrapper -->
+
+<div ng-controller="PreferencesCtrl">
+<div class="row">
+    <div class="col-lg-7">
+      <h1 class="page-header">Edit preferences</h1>
+
+      <form name="form">
+         <div class="form-group">
+            <button type="button" class="btn btn-success" ng-click="save()"><span class="glyphicon glyphicon-save"></span> Save</button>
+            <button type="button" class="btn btn-danger" ng-click="cancel()">Cancel</button>
+         </div>
+         
+      	 <h4>Website</h4>
+         <div class="well well-lg">
+	         <div class="form-group">
+	           <label>Website name</label>
+	           <input type="text" class="form-control" ng-model="preferences.websiteName" required autofocus>
+			   <p class="help-block">The name of your website which is displayed in the bar on top of the website.</p>
+	         </div>
+	         <div class="form-group">
+	           <label>Website title</label>
+	           <input type="text" class="form-control" ng-model="preferences.websiteTitle" required>
+			   <p class="help-block">Give your website a title which is displayed on the landing page of your website.</p>
+	         </div>
+	         <div class="form-group">
+	           <label>Website sub-title</label>
+	           <input type="text" class="form-control" ng-model="preferences.websiteSubTitle" required>
+			   <p class="help-block">Fill in a slogan for your website. The slogan is displayed below the title.</p>
+	         </div>
+         </div>
+
+      	 <h4>Contact</h4>
+         <div class="well well-lg">
+	         <div class="form-group">
+	           <label>Phone</label>
+	           <input type="text" class="form-control" ng-model="preferences.contactPhone" required>
+			   <p class="help-block">If you want that people contact you by phone, enter your phone number. It is displayed at the 
+			   bottom of the webite.</p>
+	         </div>
+	         <div class="form-group">
+	           <label>Email</label>
+	           <input type="text" class="form-control" ng-model="preferences.contactEmail" required>
+			   <p class="help-block">If you want that people contact you by email, enter your email address. It is displayed at the 
+			   bottom of the webite.</p>
+	         </div>
+         </div>
+         
+      	 <h4>Background image</h4>
+ 		 <div class="row">
+	    	 <div class="col-md-4">
+		         <div class="form-group">
+			 	     <div ng-show="uploader.isHTML5" ng-style="stroketext">	
+			            <div nv-file-drop="" uploader="uploader" options="{ url: '/rest/services/images/upload' }">
+			               <div nv-file-over="" uploader="uploader" over-class="another-file-over-class" class="well my-drop-zone" 
+			                 ng-style="imagePath != '' && {'background-image':'url(' + imagePath + ')', 'background-size' : 'cover', 'color': 'white', 'text-shadow': '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'}">
+			                   Drag and drop image to this box to upload or click the button below!
+			                   <br/>
+			                   <br/>
+			                   <br/>
+			                   <input type="file" nv-file-select="" uploader="uploader" />
+			                   <br/>
+			                   <br/>
+			                   <br/>
+			               </div>
+			            </div>
+			            <p class="help-block">Upload an image by drag and drop the image to the drop zone or click on the button on the image. The background image
+			            is only displayed on the landing page of your website</p>
+			         </div>
+		         </div>
+	         </div>
+	         <button type="button" class="btn btn-primary" ng-click="clearImage()">Clear image</button>
+         </div>
+
+         <div class="form-group">
+           <label>Background color</label><br/>
+           <input colorpicker="rgba" colorpicker-with-input="true" type="text" ng-model="preferences.backgroundColor" />
+		   <p class="help-block">Click on the input-field to change the background color of this paragraph. It can be combined with a background image and a transparant background color.</p>
+         </div>
+
+         <hr/>
+         <div class="form-group">
+            <button type="button" class="btn btn-success" ng-click="save()"><span class="glyphicon glyphicon-save"></span> Save</button>
+            <button type="button" class="btn btn-danger" ng-click="cancel()">Cancel</button>
+         </div>
+      </form>
+   </div>
+
+</div>

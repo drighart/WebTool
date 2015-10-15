@@ -6,7 +6,6 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 import javax.ws.rs.Consumes;
-import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -19,7 +18,6 @@ import org.drdevelopment.webtool.configuration.Config;
 import org.drdevelopment.webtool.model.Image;
 import org.drdevelopment.webtool.plugin.util.FileUtil;
 import org.drdevelopment.webtool.repository.ImageRepository;
-import org.drdevelopment.webtool.repository.MenuItemRepository;
 import org.drdevelopment.webtool.rest.data.ApplyFilter;
 import org.drdevelopment.webtool.rest.data.ImageItem;
 import org.slf4j.Logger;
@@ -72,16 +70,6 @@ public class ImageRest {
 		LOGGER.debug("Apply filter on image {} with filter '{}' and postfix {}", applyFilter.getName(), applyFilter.getFilter(),
 				applyFilter.getPostfix());
 		ImageRepository.filter(applyFilter.getName(), applyFilter.getTags(), applyFilter.getPostfix(), applyFilter.getFilter());
-		return Response.status(Response.Status.OK).build();
-	}
-
-	@DELETE
-    @Path("remove/{position}")
-	@Consumes({ MediaType.APPLICATION_JSON })
-    public Response remove(@PathParam("position") Integer position) {
-		LOGGER.debug("Remove menu-item with position '{}'", position);
-		
-		MenuItemRepository.remove(position);
 		return Response.status(Response.Status.OK).build();
 	}
 
